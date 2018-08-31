@@ -1,2 +1,3 @@
-# tiger
-Tiger Language Compiler
+# Tiger Language Compiler
+
+College project
