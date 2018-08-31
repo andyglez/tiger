@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Tiger.Node" Collapsed="true">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>AST\Node.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tiger.LetNode" Collapsed="true">
+    <Position X="6.25" Y="2.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAIAACAAAAAAAAAAgAAAAAAAABAAAA=</HashCode>
+      <FileName>AST\Expression\LetNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tiger.ExpressionNode" Collapsed="true">
+    <Position X="6.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>AST\Expression\ExpressionNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tiger.FunctionCallNode" Collapsed="true">
+    <Position X="4.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAIAgACAAAAAAAAAgAAIAAAAAAAAAA=</HashCode>
+      <FileName>AST\Expression\FunctionCallNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tiger.ExpressionListNode" Collapsed="true">
+    <Position X="8.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAQAAAAAAAAAAgAAAAAAAAEAAAA=</HashCode>
+      <FileName>AST\Expression\ExpressionListNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tiger.IntConstantNode" Collapsed="true">
+    <Position X="10.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAAAgAAAAAgAAAAAAA=</HashCode>
+      <FileName>AST\Expression\Constants\IntConstantNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tiger.NilConstantNode" Collapsed="true">
+    <Position X="12" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>AST\Expression\Constants\NilConstantNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tiger.StringConstantNode" Collapsed="true">
+    <Position X="13.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAAAgAAAAAgAAAAAAA=</HashCode>
+      <FileName>AST\Expression\Constants\StringConstantNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tiger.IfThenAbstractNode" Collapsed="true">
+    <Position X="1" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AST\Expression\FlowControl\IfThen\IfThenAbstractNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tiger.IfThenNode" Collapsed="true">
+    <Position X="1.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>AST\Expression\FlowControl\IfThen\IfThenNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tiger.IfThenElseNode" Collapsed="true">
+    <Position X="3.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAIAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>AST\Expression\FlowControl\IfThen\IfThenElseNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tiger.IterativeNode" Collapsed="true">
+    <Position X="2.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AST\Expression\FlowControl\Iterative\IterativeNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tiger.WhileControlNode" Collapsed="true">
+    <Position X="2.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAIAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>AST\Expression\FlowControl\Iterative\WhileControlNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tiger.ForControlNode" Collapsed="true">
+    <Position X="3.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAIAAAAAAAAAgAAAAQAAAAAAAA=</HashCode>
+      <FileName>AST\Expression\FlowControl\Iterative\ForControlNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tiger.BreakNode" Collapsed="true">
+    <Position X="5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAIAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>AST\Expression\FlowControl\Iterative\BreakNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tiger.AssignmentNode" Collapsed="true">
+    <Position X="7.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAAAgAACACAAAAAAAA=</HashCode>
+      <FileName>AST\Expression\Initializers\AssignmentNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tiger.ArrayAccessNode" Collapsed="true">
+    <Position X="10" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAIgAAAAAAAAAAAAgQAAAAAAAAAAAA=</HashCode>
+      <FileName>AST\Expression\Initializers\Access\ArrayAccessNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tiger.LValueNode" Collapsed="true">
+    <Position X="9.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>AST\Expression\Initializers\Access\LValueNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tiger.RecordFieldAccessNode" Collapsed="true">
+    <Position X="8.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAAAgQAIAAAAAAABAA=</HashCode>
+      <FileName>AST\Expression\Initializers\Access\RecordFieldAccessNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tiger.VariableNode" Collapsed="true">
+    <Position X="11.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAIAAAAAAQAAAAAAgQAAAAAAAAAAAA=</HashCode>
+      <FileName>AST\Expression\Initializers\Access\VariableNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tiger.ArrayCreationNode" Collapsed="true">
+    <Position X="12.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAgAAIAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>AST\Expression\Initializers\Creation\ArrayCreationNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tiger.CreationNode" Collapsed="true">
+    <Position X="13" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>AST\Expression\Initializers\Creation\CreationNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tiger.FieldInitPairNode" Collapsed="true">
+    <Position X="4.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAQAAAAAAgAQAAAAAAAAAAA=</HashCode>
+      <FileName>AST\Expression\Initializers\Creation\FieldInitPairNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tiger.RecordCreationNode" Collapsed="true">
+    <Position X="14.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAIAAAAAAAAAAAAAgAAAAAAAAAAgAA=</HashCode>
+      <FileName>AST\Expression\Initializers\Creation\RecordCreationNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tiger.DeclarationNode" Collapsed="true">
+    <Position X="23.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AST\Declarations\DeclarationNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tiger.DeclarationSequenceNode" Collapsed="true">
+    <Position X="17.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AST\Declarations\Sequences\DeclarationSequenceNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tiger.FunctionDeclarationSequenceNode" Collapsed="true">
+    <Position X="16" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAIAAAAABAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>AST\Declarations\Sequences\FunctionDeclarationSequenceNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tiger.TypeDeclarationSequenceNode" Collapsed="true">
+    <Position X="17.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAIAAAAAAAIAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>AST\Declarations\Sequences\TypeDeclarationSequenceNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tiger.VarDeclarationSequenceNode" Collapsed="true">
+    <Position X="19" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAIAAAAAAAAAAAAAgAQAAAAQAAAAAA=</HashCode>
+      <FileName>AST\Declarations\Sequences\VarDeclarationSequenceNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tiger.AbstractFunctionDeclarationNode" Collapsed="true">
+    <Position X="22.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAABAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>AST\Declarations\WaysToDeclare\Functions\AbstractFunctionDeclarationNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tiger.FunctionDeclarationNode" Collapsed="true">
+    <Position X="22.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAQAgAAAMAAQACAAgA=</HashCode>
+      <FileName>AST\Declarations\WaysToDeclare\Functions\FunctionDeclarationNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tiger.TypeDeclarationNode" Collapsed="true">
+    <Position X="23.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>AST\Declarations\WaysToDeclare\Types\TypeDeclarationNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tiger.AliasDeclarationNode" Collapsed="true">
+    <Position X="22.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAIAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>AST\Declarations\WaysToDeclare\Types\AliasDeclarationNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tiger.ArrayTypeDeclarationNode" Collapsed="true">
+    <Position X="25.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAAAgAAAAAAAAIAAAA=</HashCode>
+      <FileName>AST\Declarations\WaysToDeclare\Types\ArrayTypeDeclarationNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tiger.RecordTypeDeclarationNode" Collapsed="true">
+    <Position X="23.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAIAAAAAAAAAAAAAgAAAAAAAQAAgAA=</HashCode>
+      <FileName>AST\Declarations\WaysToDeclare\Types\RecordTypeDeclarationNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tiger.VariableDeclarationNode" Collapsed="true">
+    <Position X="25.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAMAAAAAAAAAAAAAAAAAAIAAAAAAAAQAAAAgA=</HashCode>
+      <FileName>AST\Declarations\WaysToDeclare\Variables\VariableDeclarationNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tiger.ForVarDeclarationNode" Collapsed="true">
+    <Position X="29" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAIAAAAAAAAAAAAAgAAAAAAQAAAAAA=</HashCode>
+      <FileName>AST\Declarations\WaysToDeclare\Variables\ForVarDeclarationNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tiger.FunctionParameterNode" Collapsed="true">
+    <Position X="29" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAIAAAAAAAAAAAAAhAAAAEAQAAAAAA=</HashCode>
+      <FileName>AST\Declarations\WaysToDeclare\Variables\FunctionParameterNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tiger.LetVarDeclarationNode" Collapsed="true">
+    <Position X="29" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAIAAAAAAAAAAAAAgAgAAAAQAAAAAA=</HashCode>
+      <FileName>AST\Declarations\WaysToDeclare\Variables\LetVarDeclarationNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tiger.RecordFieldDeclarationNode" Collapsed="true">
+    <Position X="29" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAIAAAAAAAAAAAAAgAgAAAAAAAAAAA=</HashCode>
+      <FileName>AST\Declarations\WaysToDeclare\Variables\RecordFieldDeclarationNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
